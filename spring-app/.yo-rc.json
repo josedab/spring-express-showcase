@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "socialprofile",
+    "packageName": "com.josedab.socialprofile",
+    "packageFolder": "com/josedab/socialprofile",
+    "authenticationType": "oauth2",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": false,
+    "rememberMeKey": "e8f12cb922965c901b5e93a2ba1dca4626501351"
+  }
+}
