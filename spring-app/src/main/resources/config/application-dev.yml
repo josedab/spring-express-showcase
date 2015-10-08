@@ -9,11 +9,11 @@ spring:
         active: dev
     datasource:
         dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-        url: 
+        url: jdbc:postgresql://localhost:5432/socialprofile
         databaseName: socialprofile
         serverName: localhost
         username: socialprofile
-        password: 
+        password: socialprofile
 
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQL82Dialect
