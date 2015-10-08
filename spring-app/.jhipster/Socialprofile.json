@@ -1,0 +1,39 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "twitter",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "facebook",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "instagram",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "pinterest",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "googleplus",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20151008051736",
+    "dto": "no",
+    "pagination": "pager"
+}

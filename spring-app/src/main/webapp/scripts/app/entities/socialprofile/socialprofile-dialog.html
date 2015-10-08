@@ -1,0 +1,68 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="mySocialprofileLabel">Create or edit a Socialprofile</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="socialprofile.id" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="field_twitter">Twitter</label>
+            <input type="text" class="form-control" name="twitter" id="field_twitter"
+                    ng-model="socialprofile.twitter"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label for="field_facebook">Facebook</label>
+            <input type="text" class="form-control" name="facebook" id="field_facebook"
+                    ng-model="socialprofile.facebook"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label for="field_email">Email</label>
+            <input type="text" class="form-control" name="email" id="field_email"
+                    ng-model="socialprofile.email"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label for="field_instagram">Instagram</label>
+            <input type="text" class="form-control" name="instagram" id="field_instagram"
+                    ng-model="socialprofile.instagram"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label for="field_pinterest">Pinterest</label>
+            <input type="text" class="form-control" name="pinterest" id="field_pinterest"
+                    ng-model="socialprofile.pinterest"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label for="field_googleplus">Googleplus</label>
+            <input type="text" class="form-control" name="googleplus" id="field_googleplus"
+                    ng-model="socialprofile.googleplus"
+                    >
+
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span>Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || editForm.$submitted" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span>Save</span>
+        </button>
+    </div>
+</form>
